@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   height: 100%;
   margin: 0;
@@ -21,7 +25,7 @@ body {
 
 .hero-banner {
   height: 100vh; 
-  background: url("../images/welcome.jpg") center/cover no-repeat;
+  background: url("../video/welcome_2_video.mp4") center/cover no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
